@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.25%;
+}
+
+body {
+  font-family: serif;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 20rem auto 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0.3rem 3rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.4rem;
+  overflow-x: hidden;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.to-do-input {
+  border: none;
+  padding: 0.8rem;
+  font-style: italic;
+  font-size: 1.6rem;
+  width: 70rem;
+  outline: none;
+}
+
+.list-element {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-element div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
+
+.add-to-do-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.addbtn {
+  justify-self: flex-start;
+  margin-right: 30rem;
+  border: none;
+  background: none;
+}
+
+.addbtn:hover {
+  cursor: pointer;
+}
+
+.new-task-added {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.9rem;
+  padding: 0.8rem;
+}
+
+.new-task {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 2.2rem;
+}
